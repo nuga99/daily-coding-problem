@@ -1,0 +1,17 @@
+Good morning! Here's your coding interview problem for today.
+
+This problem was asked by Facebook.
+
+Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, count the number of ways it can be decoded.
+
+For example, the message '111' would give 3, since it could be decoded as 'aaa', 'ka', and 'ak'.
+
+You can assume that the messages are decodable. For example, '001' is not allowed.
+
+Upgrade to premium and get in-depth solutions to every problem. Since you were referred by one of our affiliates, you'll get a 10% discount on checkout!
+
+If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
+
+No more? Unsubscribe.
+
+
