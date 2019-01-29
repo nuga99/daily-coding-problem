@@ -21,13 +21,13 @@ def solve(givenQuery,arr):
     arrSamePrefix = []
     setOfStrings = set(arr)
     for string in setOfStrings:
-        if(givenQuery in string[0:len(string)]):
+        if(givenQuery in string[0:len(givenQuery)]):
             arrSamePrefix.append(string)
-    
-    return arrSamePrefix
-    
+
+    if(arrSamePrefix != []): return arrSamePrefix
+    return "There's no data with it"
 
 if __name__ == "__main__":
     queryString = input()
-    data = ['dog', 'deer', 'deal', 'astarte']
+    data = ['dog', 'deer', 'deal', 'lede','desqueen']
     print(solve(queryString,data))
